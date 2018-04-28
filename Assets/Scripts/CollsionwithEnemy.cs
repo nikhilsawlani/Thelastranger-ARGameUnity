@@ -13,4 +13,27 @@ public class CollsionwithEnemy : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void OnCollisionEnter (Collision col){
+		Debug.Log ("Enter");
+		if((col.gameObject.tag == "MainCamera")){
+
+			Debug.Log ("Enter");
+		}
+	}
+
+
+
+	void OnCollisionExit (Collision col){
+
+		if((col.gameObject.tag == "MainCamera")){
+
+			Debug.Log ("Exit");
+		}
+	}
+
+
+	void Attack(){
+
+	}
 }

@@ -13,5 +13,6 @@ public class EnemyMoment : MonoBehaviour {
 	void Update () {
 		transform.Translate (Vector3.forward * Time.deltaTime * .3f);
 		transform.LookAt (Camera.main.transform.position);
+		transform.eulerAngles = new Vector3 (0, transform.eulerAngles.y, 0);
 	}
 }
