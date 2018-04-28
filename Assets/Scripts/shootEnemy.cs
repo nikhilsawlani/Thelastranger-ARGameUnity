@@ -11,16 +11,21 @@ public class shootEnemy : MonoBehaviour {
 	public GameObject blood;
 	public GameObject shteft;
 	int forceadd = 300;
-
+	AudioSource shoot;
+	AudioSource reload;
 	// Use this for initialization
 	void Start () {
 
 		shootBtn.onClick.AddListener (onShoot);
-
+		AudioSource[] audios = GetComponents<AudioSource> ();
+		shoot = audios [0];
+		reload = audios [1];
 	}
 	
 	void onShoot()
 	{
+
+		shoot.Play ();
 		RaycastHit hit;
 		if (Physics.Raycast (fpsCam.transform.position, fpsCam.transform.forward, out hit)) 
 		{

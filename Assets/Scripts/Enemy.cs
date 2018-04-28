@@ -5,10 +5,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
 	public float health = 30f;
-
+	AudioSource bloodsound;
 	// Use this for initialization
 	void Start () {
-		
+		AudioSource[] audios = GetComponents<AudioSource> ();
+		bloodsound = audios [1];
 	}
 	
 	// Update is called once per frame
@@ -18,6 +19,8 @@ public class Enemy : MonoBehaviour {
 
 	public void TakeDamage(float damage)
 	{
+
+		bloodsound.Play ();
 		health -= damage;
 		print (health);
 
