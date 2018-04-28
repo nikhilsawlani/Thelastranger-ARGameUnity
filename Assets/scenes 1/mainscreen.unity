@@ -882,8 +882,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e4f1fee3de32377429fd1348fae62b10, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 0d63f6115eccf4ed4a290d8e118f5120, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1011,6 +1011,7 @@ MonoBehaviour:
   damage: 10
   blood: {fileID: 1724565088289158, guid: ad2e115c52e854988ab42e0449fa843a, type: 2}
   shteft: {fileID: 1620292154412498, guid: d5b9c5f8bc18e4b63a91484794a52422, type: 2}
+  forceadd: 300
 --- !u!82 &1653516376
 AudioSource:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class shootEnemy : MonoBehaviour {
 	public float damage = 10f;
 	public GameObject blood;
 	public GameObject shteft;
-	int forceadd = 300;
+	public int forceadd = 300;
 	AudioSource shoot;
 	AudioSource reload;
 	// Use this for initialization
@@ -44,7 +44,7 @@ public class shootEnemy : MonoBehaviour {
 				}
 
 			if (hit.rigidbody != null) {
-
+				Debug.Log ("back");
 				hit.rigidbody.AddForce (-hit.normal * forceadd);
 			}
 			}
