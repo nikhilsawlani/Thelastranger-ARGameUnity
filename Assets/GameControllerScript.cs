@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameControllerScript : MonoBehaviour {
 	public GameObject bloodyscreen;
 	public Text healthtext;
+	public Button startgame;
 	public int health;
 
 	// Use this for initialization
