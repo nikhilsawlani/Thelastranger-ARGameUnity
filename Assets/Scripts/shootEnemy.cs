@@ -13,6 +13,9 @@ public class shootEnemy : MonoBehaviour {
 	public int forceadd = 300;
 	AudioSource shoot;
 	AudioSource reload;
+	public ParticleSystem muzzleflash;
+
+	public GameObject pisgo;
 	// Use this for initialization
 	void Start () {
 
@@ -41,14 +44,19 @@ public class shootEnemy : MonoBehaviour {
 				else{
 				GameObject  shtgo  =Instantiate(shteft,hit.point,Quaternion.LookRotation(hit.normal));
 				Destroy (shtgo, .2f);
+				reload.Play ();
 				}
 
 			if (hit.rigidbody != null) {
 				Debug.Log ("back");
 				hit.rigidbody.AddForce (-hit.normal * forceadd);
 			}
+			muzzleflash.Play ();
 			}
+		muzzleflash.Play ();
 
+
+		pisgo.GetComponent<Animator> ().Play("Fire");
 			// drestroy enemy
 			// instantiate blood effect
 			// load shooting effect 
