@@ -9,7 +9,8 @@ public class shootEnemy : MonoBehaviour {
 	public Camera fpsCam;
 	public float damage = 10f;
 	public GameObject blood;
-
+	public GameObject shteft;
+	int forceadd = 300;
 
 	// Use this for initialization
 	void Start () {
@@ -26,11 +27,21 @@ public class shootEnemy : MonoBehaviour {
 
 			Enemy target = hit.transform.GetComponent<Enemy> ();
 
-			if (target != null) 
-			{
+			if (target != null) {
 				target.TakeDamage (damage);
-				Instantiate(blood,hit.point,Quaternion.LookRotation(hit.normal));
-				Destroy (blood, .2f);
+				GameObject  bloodgo  =	Instantiate (blood, hit.point, Quaternion.LookRotation (hit.normal));
+				Destroy (bloodgo, .2f);
+
+			}
+				else{
+				GameObject  shtgo  =Instantiate(shteft,hit.point,Quaternion.LookRotation(hit.normal));
+				Destroy (shtgo, .2f);
+				}
+
+			if (hit.rigidbody != null) {
+
+				hit.rigidbody.AddForce (-hit.normal * forceadd);
+			}
 			}
 
 			// drestroy enemy
@@ -39,4 +50,4 @@ public class shootEnemy : MonoBehaviour {
 			//Debug.Log (hit.transform.name);
 		}
 	}
-}
+

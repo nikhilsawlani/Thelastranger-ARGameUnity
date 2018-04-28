@@ -442,8 +442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodyscreen: {fileID: 2147158055}
   healthtext: {fileID: 1729671196}
-  startgame: {fileID: 0}
-  health: 0
+  startgame: {fileID: 156104203}
+  health: 100
 --- !u!4 &595525555
 Transform:
   m_ObjectHideFlags: 0
@@ -1008,6 +1008,7 @@ MonoBehaviour:
   fpsCam: {fileID: 180987836}
   damage: 10
   blood: {fileID: 1724565088289158, guid: ad2e115c52e854988ab42e0449fa843a, type: 2}
+  shteft: {fileID: 1620292154412498, guid: d5b9c5f8bc18e4b63a91484794a52422, type: 2}
 --- !u!1 &1729671195
 GameObject:
   m_ObjectHideFlags: 0
