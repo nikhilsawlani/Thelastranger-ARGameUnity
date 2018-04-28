@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour {
 
 	public float health = 30f;
+	public int result;
+	public Text res;
 	AudioSource bloodsound;
 	// Use this for initialization
 	void Start () {
@@ -32,6 +35,9 @@ public class Enemy : MonoBehaviour {
 
 	void Die()
 	{
+		result += 1;
 		Destroy (gameObject, 1f);
+
+		res.text = result.ToString ();
 	}
 }
