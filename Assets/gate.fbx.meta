@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: d23ceb941af0a422f9eb7690671f3db8
+timeCreated: 1521527095
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 39c35de0_obj
+    100002: 39c373f0_obj
+    100004: 39c37ef8_obj
+    100006: 39c38a00_obj
+    100008: 39d79230_obj
+    100010: 39d79d38_obj
+    100012: 39d7a840_obj
+    100014: 39d7b348_obj
+    100016: 39d7be50_obj
+    100018: 39d82ca0_obj
+    100020: 39d837a8_obj
+    100022: 39d8bc08_obj
+    100024: 39d8c710_obj
+    100026: 39d8d218_obj
+    100028: 39d8dd20_obj
+    100030: 39ea7338_obj
+    100032: 39ea7e40_obj
+    100034: 39ea8948_obj
+    100036: 39ea9450_obj
+    100038: 39ead680_obj
+    100040: 39eae188_obj
+    100042: 39eaf798_obj
+    100044: 39eb02a0_obj
+    100046: 39eb0da8_obj
+    100048: 39eb4fd8_obj
+    100050: 39eb65e8_obj
+    100052: 39eb70f0_obj
+    100054: 39eb7bf8_obj
+    100056: 39eb8700_obj
+    100058: 39eb9d10_obj
+    100060: //RootNode
+    400000: 39c35de0_obj
+    400002: 39c373f0_obj
+    400004: 39c37ef8_obj
+    400006: 39c38a00_obj
+    400008: 39d79230_obj
+    400010: 39d79d38_obj
+    400012: 39d7a840_obj
+    400014: 39d7b348_obj
+    400016: 39d7be50_obj
+    400018: 39d82ca0_obj
+    400020: 39d837a8_obj
+    400022: 39d8bc08_obj
+    400024: 39d8c710_obj
+    400026: 39d8d218_obj
+    400028: 39d8dd20_obj
+    400030: 39ea7338_obj
+    400032: 39ea7e40_obj
+    400034: 39ea8948_obj
+    400036: 39ea9450_obj
+    400038: 39ead680_obj
+    400040: 39eae188_obj
+    400042: 39eaf798_obj
+    400044: 39eb02a0_obj
+    400046: 39eb0da8_obj
+    400048: 39eb4fd8_obj
+    400050: 39eb65e8_obj
+    400052: 39eb70f0_obj
+    400054: 39eb7bf8_obj
+    400056: 39eb8700_obj
+    400058: 39eb9d10_obj
+    400060: //RootNode
+    2100000: Material__55
+    2100002: Material__58
+    2100004: Material__70
+    2100006: Material__59
+    2100008: Material__60
+    2100010: Material__57
+    2100012: Material__65
+    2100014: Material__69
+    2300000: 39c35de0_obj
+    2300002: 39c373f0_obj
+    2300004: 39c37ef8_obj
+    2300006: 39c38a00_obj
+    2300008: 39d79230_obj
+    2300010: 39d79d38_obj
+    2300012: 39d7a840_obj
+    2300014: 39d7b348_obj
+    2300016: 39d7be50_obj
+    2300018: 39d82ca0_obj
+    2300020: 39d837a8_obj
+    2300022: 39d8bc08_obj
+    2300024: 39d8c710_obj
+    2300026: 39d8d218_obj
+    2300028: 39d8dd20_obj
+    2300030: 39ea7338_obj
+    2300032: 39ea7e40_obj
+    2300034: 39ea8948_obj
+    2300036: 39ea9450_obj
+    2300038: 39ead680_obj
+    2300040: 39eae188_obj
+    2300042: 39eaf798_obj
+    2300044: 39eb02a0_obj
+    2300046: 39eb0da8_obj
+    2300048: 39eb4fd8_obj
+    2300050: 39eb65e8_obj
+    2300052: 39eb70f0_obj
+    2300054: 39eb7bf8_obj
+    2300056: 39eb8700_obj
+    2300058: 39eb9d10_obj
+    3300000: 39c35de0_obj
+    3300002: 39c373f0_obj
+    3300004: 39c37ef8_obj
+    3300006: 39c38a00_obj
+    3300008: 39d79230_obj
+    3300010: 39d79d38_obj
+    3300012: 39d7a840_obj
+    3300014: 39d7b348_obj
+    3300016: 39d7be50_obj
+    3300018: 39d82ca0_obj
+    3300020: 39d837a8_obj
+    3300022: 39d8bc08_obj
+    3300024: 39d8c710_obj
+    3300026: 39d8d218_obj
+    3300028: 39d8dd20_obj
+    3300030: 39ea7338_obj
+    3300032: 39ea7e40_obj
+    3300034: 39ea8948_obj
+    3300036: 39ea9450_obj
+    3300038: 39ead680_obj
+    3300040: 39eae188_obj
+    3300042: 39eaf798_obj
+    3300044: 39eb02a0_obj
+    3300046: 39eb0da8_obj
+    3300048: 39eb4fd8_obj
+    3300050: 39eb65e8_obj
+    3300052: 39eb70f0_obj
+    3300054: 39eb7bf8_obj
+    3300056: 39eb8700_obj
+    3300058: 39eb9d10_obj
+    4300000: 39eb9d10_obj
+    4300002: 39eb02a0_obj
+    4300004: 39d79230_obj
+    4300006: 39d8c710_obj
+    4300008: 39d79d38_obj
+    4300010: 39eb0da8_obj
+    4300012: 39d8dd20_obj
+    4300014: 39eb70f0_obj
+    4300016: 39eae188_obj
+    4300018: 39d82ca0_obj
+    4300020: 39eb7bf8_obj
+    4300022: 39eb8700_obj
+    4300024: 39ea7338_obj
+    4300026: 39eaf798_obj
+    4300028: 39c37ef8_obj
+    4300030: 39d7b348_obj
+    4300032: 39d837a8_obj
+    4300034: 39c38a00_obj
+    4300036: 39c35de0_obj
+    4300038: 39eb65e8_obj
+    4300040: 39ea7e40_obj
+    4300042: 39eb4fd8_obj
+    4300044: 39c373f0_obj
+    4300046: 39ead680_obj
+    4300048: 39ea8948_obj
+    4300050: 39d7be50_obj
+    4300052: 39ea9450_obj
+    4300054: 39d8d218_obj
+    4300056: 39d8bc08_obj
+    4300058: 39d7a840_obj
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
