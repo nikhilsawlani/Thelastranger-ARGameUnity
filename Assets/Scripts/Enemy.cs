@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour {
 
 	public float health = 30f;
-	public int result;
+	public int result =0;
 
 	AudioSource bloodsound;
 	// Use this for initialization
