@@ -15,12 +15,12 @@ public class shootEnemy : MonoBehaviour {
 	AudioSource reload;
 	public ParticleSystem muzzleflash;
 
-	public Text res;
-	Enemy en;
+	//public Text res;
+	//Enemy en;
 	public GameObject pisgo;
 	// Use this for initialization
 	void Start () {
-		en = new Enemy ();
+		//en = new Enemy ();
 		shootBtn.onClick.AddListener (onShoot);
 		AudioSource[] audios = GetComponents<AudioSource> ();
 		shoot = audios [0];
@@ -29,7 +29,7 @@ public class shootEnemy : MonoBehaviour {
 	
 	void onShoot()
 	{
-		res.text = en.result.ToString ();
+		
 		shoot.Play ();
 		RaycastHit hit;
 		if (Physics.Raycast (fpsCam.transform.position, fpsCam.transform.forward, out hit)) 
