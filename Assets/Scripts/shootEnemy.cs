@@ -8,6 +8,8 @@ public class shootEnemy : MonoBehaviour {
 	public Button shootBtn;
 	public Camera fpsCam;
 	public float damage = 10f;
+	public GameObject blood;
+
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +29,8 @@ public class shootEnemy : MonoBehaviour {
 			if (target != null) 
 			{
 				target.TakeDamage (damage);
+				Instantiate(blood,hit.point,Quaternion.LookRotation(hit.normal));
+				Destroy (blood, .2f);
 			}
 
 			// drestroy enemy
