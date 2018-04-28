@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CollsionwithEnemy : MonoBehaviour {
 
+
+	public bool zombieispresent;
+	float timer;
+	int timebetweenattack;
 	// Use this for initialization
 	void Start () {
 		
@@ -11,14 +15,21 @@ public class CollsionwithEnemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		timer += Time.deltaTime;
+
+
+		if (zombieispresent && timer >= timebetweenattack) {
+			Attack ();
+		}
 	}
 
 	void OnCollisionEnter (Collision col){
-		Debug.Log ("Enter");
+		//Debug.Log ("Enter");
 		if((col.gameObject.tag == "MainCamera")){
 
 			Debug.Log ("Enter");
+			zombieispresent = true;
+
 		}
 	}
 
@@ -29,11 +40,15 @@ public class CollsionwithEnemy : MonoBehaviour {
 		if((col.gameObject.tag == "MainCamera")){
 
 			Debug.Log ("Exit");
+			zombieispresent = false;
 		}
 	}
 
 
-	void Attack(){
-
+	public void Attack(){
+		timer = 0;
+		GetComponent<Animator> ().Play ("attack");
 	}
 }
+
+

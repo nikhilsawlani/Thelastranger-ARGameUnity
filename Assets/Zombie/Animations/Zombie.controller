@@ -21,7 +21,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &1101882601319724330
+--- !u!1101 &1101346927140432294
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -29,7 +29,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102855838834803854}
+  m_DstState: {fileID: 1102827672685203176}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -52,7 +52,7 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 1101882601319724330}
+  - {fileID: 1101346927140432294}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -131,7 +131,7 @@ AnimatorStateMachine:
     m_Position: {x: 402.70572, y: 383.82672, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102697243435409610}
-    m_Position: {x: 576, y: 516, z: 0}
+    m_Position: {x: 684, y: 252, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102855838834803854}
     m_Position: {x: 780, y: 648, z: 0}
