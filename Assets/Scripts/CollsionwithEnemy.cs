@@ -8,9 +8,16 @@ public class CollsionwithEnemy : MonoBehaviour {
 	public bool zombieispresent;
 	float timer;
 	int timebetweenattack;
+
+	private GameControllerScript gameController;
 	// Use this for initialization
 	void Start () {
-		
+		timebetweenattack = 2;
+		GameObject gamecontrollerobject = GameObject.FindWithTag ("GC");
+
+		if (gamecontrollerobject != null) {
+			gameController = gamecontrollerobject.GetComponent<GameControllerScript> ();
+		}
 	}
 	
 	// Update is called once per frame
@@ -46,9 +53,13 @@ public class CollsionwithEnemy : MonoBehaviour {
 
 
 	public void Attack(){
-		timer = 0;
+		timer = 0f;
 		GetComponent<Animator> ().Play ("attack");
+		gameController.zombieAttack (zombieispresent);
+
 	}
+
+
 }
 
 
