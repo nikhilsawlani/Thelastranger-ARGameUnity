@@ -8,7 +8,7 @@ public class CollsionwithEnemy : MonoBehaviour {
 	public bool zombieispresent;
 	float timer;
 	int timebetweenattack;
-
+	AudioSource attacksound;
 	private GameControllerScript gameController;
 	// Use this for initialization
 	void Start () {
@@ -18,6 +18,9 @@ public class CollsionwithEnemy : MonoBehaviour {
 		if (gamecontrollerobject != null) {
 			gameController = gamecontrollerobject.GetComponent<GameControllerScript> ();
 		}
+
+		AudioSource[] audios = GetComponents<AudioSource> ();
+		attacksound = audios [0];
 	}
 	
 	// Update is called once per frame
@@ -56,7 +59,7 @@ public class CollsionwithEnemy : MonoBehaviour {
 		timer = 0f;
 		GetComponent<Animator> ().Play ("attack");
 		gameController.zombieAttack (zombieispresent);
-
+		attacksound.Play ();
 	}
 
 
