@@ -7,7 +7,7 @@ public class EnergyInc : MonoBehaviour {
 
 
 	public Text resl;
-	public int encount = 0;
+	public int encount;
 	public bool gotenergy = false;
 	public AudioSource energysound;
 	public GameObject itself;
